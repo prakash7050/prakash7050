@@ -21,6 +21,11 @@
 
 <br/><br/>
 
+<a href="tel:+917907221941"><img src="https://img.shields.io/badge/Call-%2B91_79072_21941-6366f1?style=for-the-badge&logo=googlemessages&logoColor=white" alt="call"/></a>
+<a href="https://wa.me/917907221941"><img src="https://img.shields.io/badge/WhatsApp-Chat_Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="whatsapp"/></a>
+
+<br/><br/>
+
 <a href="https://prakash7050.github.io/prakash7050/"><img src="https://img.shields.io/badge/%E2%9C%A8_Launch_3D_Portfolio-Three.js_%C2%B7_Framer_Motion-a855f7?style=for-the-badge" alt="3D portfolio"/></a>
 <a href="https://jyoti-prakash-test-lokpal-1.onrender.com"><img src="https://img.shields.io/badge/Portfolio-Visit-22d3ee?style=for-the-badge&logo=googlechrome&logoColor=white" alt="portfolio"/></a>
 
@@ -50,10 +55,10 @@ I work across **React.js, TypeScript, Node.js, Python/FastAPI and LLM workflows*
 **Core & Frontend**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=js,ts,html,css,react,next,redux,tailwind,materialui,react,vite,threejs,framer&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=js,ts,html,css,react,next,redux,tailwind,materialui,react,vite,threejs,framer&theme=light">
-  <img alt="skills" src="https://skillicons.dev/icons?i=js,ts,html,css,react,next,redux,tailwind,materialui,react,vite,threejs,framer&theme=dark" >
-</picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=js,ts,html,css,react,next,redux,tailwind,materialui,vite,threejs&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=js,ts,html,css,react,next,redux,tailwind,materialui,vite,threejs&theme=light">
+  <img alt="skills" src="https://skillicons.dev/icons?i=js,ts,html,css,react,next,redux,tailwind,materialui,vite,threejs&theme=dark" >
+</picture> &nbsp; <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion"/>
 
 **Backend & Architecture**
 
@@ -74,10 +79,12 @@ I work across **React.js, TypeScript, Node.js, Python/FastAPI and LLM workflows*
 **AI / ML**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,tensorflow,pytorch,openai&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,tensorflow,pytorch,openai&theme=light">
-  <img alt="skills" src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,openai&theme=dark" >
-</picture> &nbsp; `Claude` · `Gemini` · `RAG` · `OCR` · `Document AI` · `Semantic Search`
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,tensorflow,pytorch&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,tensorflow,pytorch&theme=light">
+  <img alt="skills" src="https://skillicons.dev/icons?i=python,tensorflow,pytorch&theme=dark" >
+</picture>
+
+<img src="https://img.shields.io/badge/OpenAI_GPT-412991?style=for-the-badge" alt="OpenAI"/> <img src="https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge" alt="Claude"/> <img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"/> <img src="https://img.shields.io/badge/RAG-OCR-ec4899?style=for-the-badge" alt="RAG"/> <img src="https://img.shields.io/badge/Semantic_Search-Document_AI-a855f7?style=for-the-badge" alt="Document AI"/>
 
 **Cloud & DevOps**
 
@@ -115,19 +122,68 @@ I work across **React.js, TypeScript, Node.js, Python/FastAPI and LLM workflows*
 
 ---
 
+
+## 🧠 Dev Mindset, Problem Solving & Blog
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3500&pause=1200&center=true&vCenter=true&width=800&height=40&color=A78BFA&lines=Debug+like+a+detective%2C+not+a+gambler;Find+3%2B+solutions+before+you+pick+one;Think+from+first+principles+%F0%9F%A7%A0;Consistency+beats+intensity+%F0%9F%94%A5">
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3500&pause=1200&center=true&vCenter=true&width=800&height=40&color=6366F1&lines=Debug+like+a+detective%2C+not+a+gambler;Find+3%2B+solutions+before+you+pick+one;Think+from+first+principles+%F0%9F%A7%A0;Consistency+beats+intensity+%F0%9F%94%A5">
+  <img alt="mindset" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3500&pause=1200&center=true&vCenter=true&width=800&height=40&color=A78BFA&lines=Debug+like+a+detective%2C+not+a+gambler;Find+3%2B+solutions+before+you+pick+one;Think+from+first+principles+%F0%9F%A7%A0;Consistency+beats+intensity+%F0%9F%94%A5" >
+</picture>
+
+</div>
+
+> *"First, solve the problem. Then, write the code."* — John Johnson
+> *"Make it work, make it right, make it fast."* — Kent Beck
+> *"Design is not just what it looks like. Design is how it works."* — Steve Jobs
+> *"We are what we repeatedly do. Excellence is not an act, but a habit."* — Will Durant
+
+| 🧭 Skill | How I approach it |
+|---|---|
+| 🐞 **Debugging** | Reproduce → shrink the case → one hypothesis → test → binary-search the pipeline → fix root cause + regression test |
+| 🧩 **Problem solving** | Define "done" with numbers, generate **3+ solutions**, compare trade-offs, prototype the riskiest part first |
+| 🔍 **Reasoning & analysis** | Separate facts / assumptions / unknowns, estimate with back-of-envelope math, think about 10x scale and failure modes |
+| 🎨 **Creativity** | Change the question, borrow patterns across domains, prototype ugly and fast, use constraints as fuel |
+| 📐 **Design thinking** | Empathize → define → ideate → prototype → test, applied to APIs, schemas and architecture |
+| 🔥 **Mindset** | Consistency beats intensity — calm mind, clear code, small steps that compound |
+
+<details>
+<summary><b>💬 A short speech for tough days (click to read)</b></summary>
+
+<br/>
+
+Some days the build is red, the bug is invisible and everyone else seems ahead. Those days are not proof that you are failing — they are the training.
+
+You do not need to be the smartest person in the room. You need to be the one who keeps showing up, keeps learning and keeps shipping a little better than yesterday.
+
+One bug understood, one concept learned, one honest commit — do that daily and in a year you will not recognise your own skill. So breathe, read the error again, ask for help without shame, and take the next small step. **Aap kar sakte ho — and you already are.** 🚀
+
+</details>
+
+<div align="center">
+
+<a href="https://prakash7050.github.io/prakash7050/#blog"><img src="https://img.shields.io/badge/Read_the_full_blog-6_articles_%C2%B7_quotes_%C2%B7_speech-ec4899?style=for-the-badge" alt="blog"/></a>
+
+</div>
+
+---
+
+
 ## 📊 GitHub Stats
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?show_icons=true&rank_icon=github&include_all_commits=true&count_private=true&username=prakash7050&hide_border=true&border_radius=16&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee&text_color=c9d1d9&ring_color=ec4899">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?show_icons=true&rank_icon=github&include_all_commits=true&count_private=true&username=prakash7050&hide_border=true&border_radius=16&bg_color=ffffff&title_color=6366f1&icon_color=a855f7&text_color=334155&ring_color=ec4899">
-  <img alt="stats" src="https://github-readme-stats.vercel.app/api?show_icons=true&rank_icon=github&include_all_commits=true&count_private=true&username=prakash7050&hide_border=true&border_radius=16&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee&text_color=c9d1d9&ring_color=ec4899" width="49%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?show_icons=true&rank_icon=github&include_all_commits=true&count_private=true&username=prakash7050&hide_border=true&border_radius=16&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee&text_color=c9d1d9&ring_color=ec4899">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?show_icons=true&rank_icon=github&include_all_commits=true&count_private=true&username=prakash7050&hide_border=true&border_radius=16&bg_color=ffffff&title_color=6366f1&icon_color=a855f7&text_color=334155&ring_color=ec4899">
+  <img alt="stats" src="https://github-readme-stats-fast.vercel.app/api?show_icons=true&rank_icon=github&include_all_commits=true&count_private=true&username=prakash7050&hide_border=true&border_radius=16&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee&text_color=c9d1d9&ring_color=ec4899" width="49%">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?layout=compact&langs_count=8&username=prakash7050&hide_border=true&border_radius=16&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee&text_color=c9d1d9&ring_color=ec4899">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?layout=compact&langs_count=8&username=prakash7050&hide_border=true&border_radius=16&bg_color=ffffff&title_color=6366f1&icon_color=a855f7&text_color=334155&ring_color=ec4899">
-  <img alt="languages" src="https://github-readme-stats.vercel.app/api/top-langs/?layout=compact&langs_count=8&username=prakash7050&hide_border=true&border_radius=16&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee&text_color=c9d1d9&ring_color=ec4899" width="49%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs?layout=compact&langs_count=8&username=prakash7050&hide_border=true&border_radius=16&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee&text_color=c9d1d9&ring_color=ec4899">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs?layout=compact&langs_count=8&username=prakash7050&hide_border=true&border_radius=16&bg_color=ffffff&title_color=6366f1&icon_color=a855f7&text_color=334155&ring_color=ec4899">
+  <img alt="languages" src="https://github-readme-stats-fast.vercel.app/api/top-langs?layout=compact&langs_count=8&username=prakash7050&hide_border=true&border_radius=16&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee&text_color=c9d1d9&ring_color=ec4899" width="49%">
 </picture>
 
 <picture>
@@ -137,15 +193,9 @@ I work across **React.js, TypeScript, Node.js, Python/FastAPI and LLM workflows*
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=prakash7050&bg_color=0d1117&color=a78bfa&line=6366f1&point=ec4899&area=true&area_color=9333ea&hide_border=true&title_color=22d3ee">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=prakash7050&bg_color=ffffff&color=6366f1&line=a855f7&point=ec4899&area=true&area_color=a855f7&hide_border=true&title_color=6366f1">
-  <img alt="activity" src="https://github-readme-activity-graph.vercel.app/graph?username=prakash7050&bg_color=0d1117&color=a78bfa&line=6366f1&point=ec4899&area=true&area_color=9333ea&hide_border=true&title_color=22d3ee" width="100%">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=prakash7050&theme=onedark&no-frame=true&no-bg=true&margin-w=10&column=7">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=prakash7050&theme=flat&no-frame=true&no-bg=true&margin-w=10&column=7">
-  <img alt="trophies" src="https://github-profile-trophy.vercel.app/?username=prakash7050&theme=onedark&no-frame=true&no-bg=true&margin-w=10&column=7" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-trophies.vercel.app/?username=prakash7050&theme=onedark&no-frame=true&no-bg=true&margin-w=10&column=7">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-trophies.vercel.app/?username=prakash7050&theme=flat&no-frame=true&no-bg=true&margin-w=10&column=7">
+  <img alt="trophies" src="https://github-trophies.vercel.app/?username=prakash7050&theme=onedark&no-frame=true&no-bg=true&margin-w=10&column=7" width="100%">
 </picture>
 
 ### 🐍 Contribution Snake
@@ -168,6 +218,8 @@ I work across **React.js, TypeScript, Node.js, Python/FastAPI and LLM workflows*
 <a href="https://x.com/hii_prakash"><img src="https://img.shields.io/badge/X-hii__prakash-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
 <a href="https://www.instagram.com/error_with_404"><img src="https://img.shields.io/badge/Instagram-error__with__404-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
 <a href="https://www.facebook.com/share/1S8UVAk2Gn/"><img src="https://img.shields.io/badge/Facebook-Jyoti_Prakash-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/></a>
+<a href="tel:+917907221941"><img src="https://img.shields.io/badge/Call-+91_79072_21941-6366f1?style=for-the-badge&logo=googlemessages&logoColor=white" alt="Call"/></a>
+<a href="https://wa.me/917907221941"><img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
 <a href="mailto:prak5682@gmail.com"><img src="https://img.shields.io/badge/Email-prak5682@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 <br/>

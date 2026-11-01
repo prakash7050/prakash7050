@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { motion, useScroll, useSpring, useMotionValue, useTransform, animate, useInView } from "framer-motion";
+import { motion, AnimatePresence, useScroll, useSpring, useMotionValue, useTransform, animate, useInView } from "framer-motion";
 import { useRef } from "react";
 import Scene3D from "./Scene3D.jsx";
-import { links, roles, stats, skills, experience, projects } from "./data.js";
+import { links, roles, stats, skills, experience, projects, phone, quotes, categories, posts } from "./data.js";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -75,6 +75,108 @@ function Tilt({ children, className }) {
   );
 }
 
+function QuoteRotator() {
+  const [i, setI] = useState(0);
+  useEffect(() => {
+    const t = setInterval(() => setI((n) => (n + 1) % quotes.length), 5000);
+    return () => clearInterval(t);
+  }, []);
+  return (
+    <div className="quote-box">
+      <AnimatePresence mode="wait">
+        <motion.blockquote key={i} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }} transition={{ duration: 0.5 }}>
+          <p>“{quotes[i].text}”</p>
+          <cite>— {quotes[i].by}</cite>
+        </motion.blockquote>
+      </AnimatePresence>
+    </div>
+  );
+}
+
+function PostModal({ post, onClose }) {
+  useEffect(() => {
+    const h = (e) => e.key === "Escape" && onClose();
+    window.addEventListener("keydown", h);
+    return () => window.removeEventListener("keydown", h);
+  }, [onClose]);
+  return (
+    <motion.div className="overlay" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose}>
+      <motion.article className="modal card" role="dialog" aria-modal="true" aria-label={post.title}
+        initial={{ y: 60, scale: 0.94, opacity: 0 }} animate={{ y: 0, scale: 1, opacity: 1 }} exit={{ y: 40, opacity: 0 }}
+        transition={{ type: "spring", stiffness: 160, damping: 20 }} onClick={(e) => e.stopPropagation()}>
+        <button className="close" onClick={onClose} aria-label="Close">✕</button>
+        <span className="period">{post.category} · {post.read} read</span>
+        <h3 className="modal-title"><span>{post.emoji}</span> {post.title}</h3>
+        {post.body?.map((p) => <p key={p}>{p}</p>)}
+        {post.speech?.map((p) => <p key={p} className="speech">{p}</p>)}
+        {post.steps && <ol>{post.steps.map((st) => <li key={st}>{st}</li>)}</ol>}
+        <p className="takeaway">💡 {post.takeaway}</p>
+      </motion.article>
+    </motion.div>
+  );
+}
+
+function Blog() {
+  const [cat, setCat] = useState("All");
+  const [open, setOpen] = useState(null);
+  const list = posts.filter((p) => cat === "All" || p.category === cat);
+  return (
+    <>
+      <QuoteRotator />
+      <div className="chips filters">
+        {categories.map((c) => (
+          <button key={c} className={"chip filter" + (c === cat ? " active" : "")} onClick={() => setCat(c)}>{c}</button>
+        ))}
+      </div>
+      <motion.div layout className="grid3">
+        <AnimatePresence>
+          {list.map((p) => (
+            <motion.div key={p.id} layout initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.9 }}
+              className="card post" whileHover={{ y: -8, rotateX: 4, rotateY: -4 }} style={{ transformPerspective: 800 }}
+              onClick={() => setOpen(p)} role="button" tabIndex={0} onKeyDown={(e) => e.key === "Enter" && setOpen(p)}>
+              <div className="emoji">{p.emoji}</div>
+              <span className="period">{p.category} · {p.read}</span>
+              <h3>{p.title}</h3>
+              <p>{p.summary}</p>
+              <span className="more grad">Read more →</span>
+            </motion.div>
+          ))}
+        </AnimatePresence>
+      </motion.div>
+      <AnimatePresence>{open && <PostModal post={open} onClose={() => setOpen(null)} />}</AnimatePresence>
+    </>
+  );
+}
+
+const PhoneIcon = () => (
+  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+    <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z" />
+  </svg>
+);
+const WhatsAppIcon = () => (
+  <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.3z" />
+    <path d="M9 8.5c0 3 2.5 5.500 5.500 5.500l1.200-1.300-1.800-1-.9.700a4 4 0 0 1-1.700-1.700l.7-.9-1-1.800z" fill="currentColor" stroke="none" />
+  </svg>
+);
+
+function FloatingContact() {
+  return (
+    <div className="fab-wrap">
+      <motion.a className="fab call" href={links.phone} aria-label={`Call ${phone.display}`}
+        initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", delay: 1.2 }}
+        whileHover={{ scale: 1.15, rotate: -8 }} whileTap={{ scale: 0.9 }}>
+        <PhoneIcon /><span className="tip">{phone.display}</span>
+      </motion.a>
+      <motion.a className="fab wa" href={links.whatsapp} target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp"
+        initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", delay: 1.4 }}
+        whileHover={{ scale: 1.15, rotate: 8 }} whileTap={{ scale: 0.9 }}>
+        <WhatsAppIcon /><span className="tip">WhatsApp</span>
+      </motion.a>
+    </div>
+  );
+}
+
 export default function App() {
   const [theme, setTheme] = useState(() => {
     try { return localStorage.getItem("theme") || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark"); }
@@ -96,7 +198,7 @@ export default function App() {
       <nav className="nav">
         <a href="#top" className="logo grad">JP</a>
         <div className="navlinks">
-          {["about", "skills", "experience", "projects", "contact"].map((s) => <a key={s} href={`#${s}`}>{s}</a>)}
+          {["about", "skills", "experience", "projects", "blog", "contact"].map((s) => <a key={s} href={`#${s}`}>{s}</a>)}
           <button className="toggle" aria-label="Toggle theme" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
             {theme === "dark" ? "☀️" : "🌙"}
           </button>
@@ -192,9 +294,13 @@ export default function App() {
           </div>
         </Section>
 
+        <Section id="blog" title="Blog · Mindset & Problem Solving">
+          <Blog />
+        </Section>
+
         <Section id="contact" title="Let's Connect">
           <div className="socials">
-            {[["LinkedIn", links.linkedin], ["GitHub", links.github], ["X", links.x], ["Instagram", links.instagram], ["Facebook", links.facebook], ["Email", links.email], ["Portfolio", links.portfolio]].map(([n, h], i) => (
+            {[["LinkedIn", links.linkedin], ["GitHub", links.github], ["X", links.x], ["Instagram", links.instagram], ["Facebook", links.facebook], ["Call " + phone.display, links.phone], ["WhatsApp", links.whatsapp], ["Email", links.email], ["Portfolio", links.portfolio]].map(([n, h], i) => (
               <motion.a key={n} href={h} target="_blank" rel="noreferrer" className="btn"
                 variants={fadeUp} custom={i} initial="hidden" whileInView="show" viewport={{ once: true }}
                 whileHover={{ y: -6, scale: 1.08 }} whileTap={{ scale: 0.95 }}>{n}</motion.a>
@@ -202,6 +308,8 @@ export default function App() {
           </div>
         </Section>
       </main>
+
+      <FloatingContact />
 
       <footer>Built with React · Three.js · Framer Motion — © Jyoti Prakash</footer>
     </>
