@@ -20,15 +20,17 @@ export const roles = [
 export const stats = [
   { value: 5, suffix: "+", label: "Years experience" },
   { value: 5, suffix: "", label: "Companies" },
-  { value: 20, suffix: "+", label: "Projects & clients" },
+  { value: 18, suffix: "+", label: "Projects & clients" },
   { value: 3, suffix: "", label: "LLM providers" },
 ];
 
 export const skills = {
-  "Core": ["JavaScript", "TypeScript", "React.js", "Next.js", "Node.js", "Express", "NestJS", "Python", "FastAPI", "React Native", "Expo", "WebSockets", "JWT"],
-  "Architecture": ["System Design", "Modular Monolith", "Microservices", "Event-Driven", "API-First", "BFF", "Serverless"],
-  "Data & Messaging": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Prisma", "Sequelize", "Kafka", "RabbitMQ", "BullMQ"],
-  "AI / Cloud": ["OpenAI", "Claude", "Gemini", "RAG", "OCR", "AWS", "Azure", "Supabase", "Docker", "Nginx", "GitHub Actions", "Vercel", "Cloudflare"],
+  "Core & Frontend": ["JavaScript", "TypeScript", "React.js", "Next.js", "Node.js", "Express.js", "NestJS", "Python", "FastAPI", "HTML5", "CSS3", "MUI", "React Native", "Expo", "REST APIs", "WebSockets", "JWT", "DSA"],
+  "System Design & Backend": ["System Design", "Monolith", "Modular Monolith", "Microservices", "SOA", "Serverless", "Service-Based", "Event-Driven", "API-First", "BFF", "Backend Architecture", "API Integration", "Authentication", "Authorization"],
+  "Data, Database & Messaging": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "SQL", "Sequelize", "Prisma", "Kafka", "RabbitMQ", "BullMQ", "Queue Processing", "Async Jobs", "Data Analysis", "Data Processing", "Migration", "Dump/Restore", "Backup/Recovery", "Replication", "Indexing", "Caching"],
+  "AI / ML": ["OpenAI GPT", "Anthropic Claude", "Google Gemini", "LLMs", "RAG", "OCR", "Document AI", "AI/ML Automation", "Prompt Engineering", "Data Extraction", "Semantic Search"],
+  "Cloud & DevOps": ["AWS (EC2, S3, RDS)", "Azure", "Supabase", "Vercel", "Cloudflare Workers", "Render", "Docker", "Nginx", "GitHub Actions", "Firebase"],
+  "Low-code & Business": ["Zoho Creator", "Deluge", "Zoho CRM", "Zoho Analytics", "Zoho Flow", "Zoho Books", "Zoho Desk"],
 };
 
 export const experience = [
@@ -48,7 +50,8 @@ export const experience = [
     period: "Nov 2023 – Aug 2025",
     points: [
       "Scalable web apps for the US-based SunValue solar platform: lead-gen, savings workflows, analytics, CRM.",
-      "CRM pipelines, SMS/Email workflows, secure JWT auth, Kafka/RabbitMQ queue processing.",
+      "CRM pipelines, admin dashboards, SMS/Email workflows, secure JWT authentication.",
+      "Data-heavy interfaces, backend/API integrations, database migration and dump/restore activities, Kafka/RabbitMQ-based queue processing for client applications.",
     ],
   },
   {
@@ -78,13 +81,34 @@ export const experience = [
 ];
 
 export const projects = [
-  { name: "LMS Platforms", tag: "Square Hack", desc: "AI Academy, LearnWizz, SH E-Learning — payments, profiles, admin.", stack: ["Next.js", "TypeScript", "PostgreSQL"] },
-  { name: "Document AI", tag: "Square Hack", desc: "OCR + LLM extraction and auto-fill with caching and structured processing.", stack: ["FastAPI", "Claude", "Gemini", "RAG"] },
-  { name: "SunValue", tag: "Reidnax · US", desc: "Solar lead generation, savings workflows, analytics and CRM.", stack: ["Next.js", "Node.js", "Kafka"] },
-  { name: "CRM & Admin Suites", tag: "Reidnax", desc: "adnet admin platform, CRM lead management, elitegarud.", stack: ["React", "RabbitMQ", "JWT"] },
-  { name: "EvCred", tag: "Ascend Capital", desc: "Dealer app, partner portal and LOS for EV financing with live bidding.", stack: ["React Native", "Node.js"] },
-  { name: "Zoho Solutions", tag: "IT-TaaS", desc: "Creator apps, Deluge workflows and CRM automation.", stack: ["Zoho", "React", "MUI"] },
+  { name: "AI Academy", tag: "Square Hack", desc: "Multi-domain LMS with payments, profiles and admin platform.", stack: ["Next.js", "TypeScript", "PostgreSQL", "BullMQ"] },
+  { name: "LearnWizz", tag: "Square Hack", desc: "Learning platform with scalable backend modules, secure auth and DB migration.", stack: ["Next.js", "PostgreSQL", "Redis"] },
+  { name: "SH E-Learning", tag: "Square Hack", desc: "E-learning platform with API services, payments and admin tooling.", stack: ["Next.js", "MongoDB", "TypeScript"] },
+  { name: "GreenStrun AI", tag: "Square Hack", desc: "Data platform work: PostgreSQL/MongoDB migration, dump/restore, transformation, caching.", stack: ["PostgreSQL", "MongoDB", "Redis"] },
+  { name: "SustainInsight (UAE)", tag: "Square Hack", desc: "Data processing, API integrations and background jobs for a UAE client.", stack: ["Node.js", "PostgreSQL", "BullMQ"] },
+  { name: "NovelInfra India", tag: "Square Hack", desc: "Migration, replication, indexing and caching across client data stores.", stack: ["PostgreSQL", "Redis", "APIs"] },
+  { name: "Document AI", tag: "Square Hack", desc: "Extract and auto-fill invoices, CVs and business data using OCR, RAG and LLMs with structured processing and caching.", stack: ["FastAPI", "Claude", "Gemini", "GPT", "OCR"] },
+  { name: "WinTech", tag: "Square Hack", desc: "Client web platform delivered full-stack.", stack: ["React", "Node.js"] },
+  { name: "DevFolio", tag: "Square Hack", desc: "Developer portfolio platform.", stack: ["React", "TypeScript"] },
+  { name: "SunValue", tag: "Reidnax · US", url: "https://sunvalue.com", desc: "US solar platform: lead generation, solar savings workflows, analytics, CRM and third-party API integrations.", stack: ["Next.js", "React", "Node.js", "TypeScript"] },
+  { name: "adnet admin platform", tag: "Reidnax", desc: "Data-heavy admin dashboards with backend/API integrations and DB migration.", stack: ["React", "Kafka", "RabbitMQ"] },
+  { name: "CRM Lead Management", tag: "Reidnax", desc: "CRM pipelines with SMS/Email workflows and secure JWT authentication.", stack: ["Node.js", "JWT", "Kafka"] },
+  { name: "Elitegarud", tag: "Reidnax", url: "https://elitegarud.com", desc: "Client web application with CRM and communication workflows.", stack: ["React", "Node.js"] },
+  { name: "Zoho Business Workflows", tag: "IT-TaaS", desc: "Creator apps with Deluge, CRM, Analytics, Flow, Books and Desk automation.", stack: ["Zoho Creator", "React", "MUI"] },
+  { name: "EvCred Dealer App", tag: "Ascend Capital", desc: "Mobile app for EV financing: dealer management, resale, sales, inventory and customers.", stack: ["React Native", "Node.js"] },
+  { name: "EvCred", tag: "Ascend Capital", url: "https://evcred.com", desc: "EV financing web platform with real-time bidding and dynamic forms.", stack: ["React", "Node.js", "WebSockets"] },
+  { name: "EvCred Partners", tag: "Ascend Capital", url: "https://partners.evcred.com", desc: "Partner portal with role-based access and dashboards.", stack: ["React", "RBAC"] },
+  { name: "LOS · Ascend Capital", tag: "Ascend Capital", url: "https://los.ascendcap.in", desc: "Loan Origination System for operational and financing workflows.", stack: ["React", "Node.js", "LOS/LMS"] },
 ];
+
+export const education = {
+  school: "Cochin University of Science and Technology, Kochi, Kerala",
+  degree: "Bachelor of Technology (B.Tech.) in Information Technology",
+  period: "2016 – 2020",
+};
+
+export const summary =
+  "Full-Stack Developer with 5+ years of experience building scalable MERN/PERN, FinTech, real-time, AI/ML and data-driven applications. Experienced across React.js, TypeScript, Node.js, Python/FastAPI, LLM workflows, backend systems, data platforms, cloud deployment and third-party integrations.";
 
 export const phone = { display: "+91 79072 21941", tel: "+917907221941" };
 

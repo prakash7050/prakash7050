@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence, useScroll, useSpring, useMotionValue, useTransform, animate, useInView } from "framer-motion";
 import { useRef } from "react";
 import Scene3D from "./Scene3D.jsx";
-import { links, roles, stats, skills, experience, projects, phone, quotes, categories, posts } from "./data.js";
+import { links, roles, stats, skills, experience, projects, education, summary, phone, quotes, categories, posts } from "./data.js";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -218,6 +218,7 @@ export default function App() {
             <motion.div variants={fadeUp} custom={4} className="cta">
               <a className="btn primary" href="#projects">View work</a>
               <a className="btn" href={links.email}>Hire me</a>
+              <a className="btn" href="./Jyoti_Prakash_Resume.pdf" download>Resume ⬇</a>
             </motion.div>
           </motion.div>
           <motion.div
@@ -241,10 +242,14 @@ export default function App() {
             ))}
           </div>
           <motion.p className="about" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}>
-            Full-Stack Developer based in Gurugram, India. I work across React.js, TypeScript, Node.js and Python/FastAPI,
-            with experience in LLM workflows, backend systems, data platforms, cloud deployment and third-party integrations.
-            B.Tech in Information Technology, CUSAT (2016–2020).
+            {summary}
           </motion.p>
+          <motion.div className="card edu" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}>
+            <span className="period">🎓 Education · {education.period}</span>
+            <h3>{education.school}</h3>
+            <p>{education.degree}</p>
+          </motion.div>
+          <a className="btn primary resume" href="./Jyoti_Prakash_Resume.pdf" download>⬇ Download Resume (PDF)</a>
         </Section>
 
         <Section id="skills" title="Skills">
@@ -286,7 +291,7 @@ export default function App() {
             {projects.map((p) => (
               <Tilt key={p.name} className="card project">
                 <span className="period">{p.tag}</span>
-                <h3>{p.name}</h3>
+                <h3>{p.url ? <a href={p.url} target="_blank" rel="noreferrer" className="grad">{p.name} ↗</a> : p.name}</h3>
                 <p>{p.desc}</p>
                 <div className="chips">{p.stack.map((s) => <span key={s} className="chip sm">{s}</span>)}</div>
               </Tilt>

@@ -77,3 +77,5 @@ footer { text-align: center; padding: 40px 5vw; color: var(--muted); font-size: 
 .fab .tip { position: absolute; right: 64px; white-space: nowrap; padding: 5px 12px; border-radius: 999px; background: var(--card); color: var(--fg); border: 1px solid var(--border); font-size: 0.8rem; opacity: 0; transform: translateX(8px); transition: 0.25s; pointer-events: none; backdrop-filter: blur(8px); }
 .fab:hover .tip, .fab:focus-visible .tip { opacity: 1; transform: none; }
 @keyframes ring { 0%, 100% { box-shadow: 0 0 0 0 rgba(168, 85, 247, 0.55); } 50% { box-shadow: 0 0 0 16px rgba(168, 85, 247, 0); } }
+
+.edu { margin: 24px 0; max-width: 800px; } .edu p { color: var(--muted); } .resume { margin-top: 6px; }

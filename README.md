@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=venom&height=230&section=header&text=Jyoti%20Prakash&fontSize=62&fontAlignY=40&animation=twinkling&desc=Full-Stack%20Developer%20%E2%80%A2%20AI%20%E2%80%A2%20FinTech%20%E2%80%A2%20SaaS&descSize=18&descAlignY=64&descAlign=50&fontColor=ffffff&color=0:0f172a,30:4f46e5,65:9333ea,100:ec4899">
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=venom&height=230&section=header&text=Jyoti%20Prakash&fontSize=62&fontAlignY=40&animation=twinkling&desc=Full-Stack%20Developer%20%E2%80%A2%20AI%20%E2%80%A2%20FinTech%20%E2%80%A2%20SaaS&descSize=18&descAlignY=64&descAlign=50&fontColor=ffffff&color=0:22d3ee,35:6366f1,70:a855f7,100:ec4899">
-  <img alt="Jyoti Prakash" src="https://capsule-render.vercel.app/api?type=venom&height=230&section=header&text=Jyoti%20Prakash&fontSize=62&fontAlignY=40&animation=twinkling&desc=Full-Stack%20Developer%20%E2%80%A2%20AI%20%E2%80%A2%20FinTech%20%E2%80%A2%20SaaS&descSize=18&descAlignY=64&descAlign=50&fontColor=ffffff&color=0:0f172a,30:4f46e5,65:9333ea,100:ec4899" >
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=240&section=header&text=Jyoti%20Prakash&fontSize=62&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%A2%20AI%20%E2%80%A2%20FinTech%20%E2%80%A2%20SaaS&descSize=18&descAlignY=64&descAlign=50&fontColor=ffffff&color=0:0f172a,30:4f46e5,65:9333ea,100:ec4899">
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&height=240&section=header&text=Jyoti%20Prakash&fontSize=62&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%A2%20AI%20%E2%80%A2%20FinTech%20%E2%80%A2%20SaaS&descSize=18&descAlignY=64&descAlign=50&fontColor=ffffff&color=0:22d3ee,35:6366f1,70:a855f7,100:ec4899">
+  <img alt="Jyoti Prakash" src="https://capsule-render.vercel.app/api?type=waving&height=240&section=header&text=Jyoti%20Prakash&fontSize=62&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%A2%20AI%20%E2%80%A2%20FinTech%20%E2%80%A2%20SaaS&descSize=18&descAlignY=64&descAlign=50&fontColor=ffffff&color=0:0f172a,30:4f46e5,65:9333ea,100:ec4899" >
 </picture>
 
 <picture>
@@ -26,7 +26,7 @@
 
 <br/><br/>
 
-<a href="https://prakash7050.github.io/prakash7050/"><img src="https://img.shields.io/badge/%E2%9C%A8_Launch_3D_Portfolio-Three.js_%C2%B7_Framer_Motion-a855f7?style=for-the-badge" alt="3D portfolio"/></a>
+<a href="https://prakash.squarehack.in/"><img src="https://img.shields.io/badge/%E2%9C%A8_Launch_3D_Portfolio-Three.js_%C2%B7_Framer_Motion-a855f7?style=for-the-badge" alt="3D portfolio"/></a>
 <a href="https://jyoti-prakash-test-lokpal-1.onrender.com"><img src="https://img.shields.io/badge/Portfolio-Visit-22d3ee?style=for-the-badge&logo=googlechrome&logoColor=white" alt="portfolio"/></a>
 
 </div>
@@ -60,21 +60,27 @@ I work across **React.js, TypeScript, Node.js, Python/FastAPI and LLM workflows*
   <img alt="skills" src="https://skillicons.dev/icons?i=js,ts,html,css,react,next,redux,tailwind,materialui,vite,threejs&theme=dark" >
 </picture> &nbsp; <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion"/>
 
-**Backend & Architecture**
+`JavaScript` `TypeScript` `React.js` `Next.js` `Node.js` `Express.js` `NestJS` `Python` `FastAPI` `HTML5` `CSS3` `MUI` `React Native` `Expo` `REST APIs` `WebSockets` `JWT` `DSA`
+
+**System Design & Backend**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,express,nestjs,python,fastapi,graphql,kafka,rabbitmq,redis&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs,express,nestjs,python,fastapi,graphql,kafka,rabbitmq,redis&theme=light">
-  <img alt="skills" src="https://skillicons.dev/icons?i=nodejs,express,nestjs,python,fastapi,graphql,kafka,rabbitmq,redis&theme=dark" >
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,express,nestjs,python,fastapi,graphql&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs,express,nestjs,python,fastapi,graphql&theme=light">
+  <img alt="skills" src="https://skillicons.dev/icons?i=nodejs,express,nestjs,python,fastapi,graphql&theme=dark" >
 </picture>
 
-**Databases & ORM**
+`System Design` `Monolith` `Modular Monolith` `Microservices` `SOA` `Serverless` `Service-Based` `Event-Driven` `API-First` `BFF` `Backend Architecture` `API Integration` `Authentication` `Authorization`
+
+**Data, Database & Messaging**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,prisma,supabase,firebase&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,prisma,supabase,firebase&theme=light">
-  <img alt="skills" src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,prisma,supabase,firebase&theme=dark" >
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,prisma,kafka,rabbitmq,supabase,firebase&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,prisma,kafka,rabbitmq,supabase,firebase&theme=light">
+  <img alt="skills" src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,prisma,kafka,rabbitmq,supabase,firebase&theme=dark" >
 </picture>
+
+`PostgreSQL` `MySQL` `MongoDB` `Redis` `SQL` `Sequelize` `Prisma` `Kafka` `RabbitMQ` `BullMQ` `Queue Processing` `Async Jobs` `Data Analysis` `Data Processing` `Migration` `Dump/Restore` `Backup/Recovery` `Replication` `Indexing` `Caching`
 
 **AI / ML**
 
@@ -84,15 +90,23 @@ I work across **React.js, TypeScript, Node.js, Python/FastAPI and LLM workflows*
   <img alt="skills" src="https://skillicons.dev/icons?i=python,tensorflow,pytorch&theme=dark" >
 </picture>
 
-<img src="https://img.shields.io/badge/OpenAI_GPT-412991?style=for-the-badge" alt="OpenAI"/> <img src="https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge" alt="Claude"/> <img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"/> <img src="https://img.shields.io/badge/RAG-OCR-ec4899?style=for-the-badge" alt="RAG"/> <img src="https://img.shields.io/badge/Semantic_Search-Document_AI-a855f7?style=for-the-badge" alt="Document AI"/>
+<img src="https://img.shields.io/badge/OpenAI_GPT-412991?style=for-the-badge" alt="OpenAI"/> <img src="https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge" alt="Claude"/> <img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"/>
+
+`LLMs` `RAG` `OCR` `Document AI` `AI/ML Automation` `Prompt Engineering` `Data Extraction` `Semantic Search`
 
 **Cloud & DevOps**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,azure,docker,nginx,githubactions,vercel,cloudflare,linux,git,github,vscode&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws,azure,docker,nginx,githubactions,vercel,cloudflare,linux,git,github,vscode&theme=light">
-  <img alt="skills" src="https://skillicons.dev/icons?i=aws,azure,docker,nginx,githubactions,vercel,cloudflare,linux,git,github,vscode&theme=dark" >
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,azure,docker,nginx,githubactions,vercel,cloudflare,firebase,linux,git,github,vscode&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws,azure,docker,nginx,githubactions,vercel,cloudflare,firebase,linux,git,github,vscode&theme=light">
+  <img alt="skills" src="https://skillicons.dev/icons?i=aws,azure,docker,nginx,githubactions,vercel,cloudflare,firebase,linux,git,github,vscode&theme=dark" >
 </picture>
+
+`AWS (EC2, S3, RDS)` `Azure` `Supabase` `Vercel` `Cloudflare Workers` `Render` `Docker` `Nginx` `GitHub Actions` `Firebase`
+
+**Low-code & Business Automation**
+
+`Zoho Creator` `Deluge` `Zoho CRM` `Zoho Analytics` `Zoho Flow` `Zoho Books` `Zoho Desk`
 
 ---
 
@@ -108,17 +122,56 @@ I work across **React.js, TypeScript, Node.js, Python/FastAPI and LLM workflows*
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Projects & Clients
+
+### 🟣 Square Hack · 2025–2026
 
 | Project | What it is | Stack |
 |---|---|---|
-| 🎓 **AI Academy / LearnWizz / SH E-Learning** | Multi-domain LMS with payments, profiles & admin | Next.js · TypeScript · PostgreSQL · BullMQ |
-| 📄 **Document AI** | Auto-fill invoices, CVs & business data via OCR + LLMs with caching | Python · FastAPI · Claude · Gemini · RAG |
-| 🌱 **GreenStrun AI · SustainInsight (UAE)** | Data platforms, migrations, background jobs | PostgreSQL · MongoDB · Redis |
-| ☀️ **SunValue (US)** | Solar lead-gen, savings workflows, analytics, CRM | Next.js · React · Node.js · TypeScript |
-| 🧾 **adnet admin · CRM lead system · elitegarud** | Data-heavy admin & CRM interfaces | React · Kafka · RabbitMQ |
-| ⚡ **EvCred Dealer App · LOS** | EV financing, real-time bidding, dealer & partner portals | React Native · Node.js |
-| 🏗️ **NovelInfra India · WinTech · DevFolio** | Business web platforms & portfolios | React · Node.js |
+| 🎓 **AI Academy** | Multi-domain LMS with payments, profiles & admin | Next.js · TypeScript · PostgreSQL · BullMQ |
+| 🧠 **LearnWizz** | Learning platform, secure auth, DB migration | Next.js · PostgreSQL · Redis |
+| 📚 **SH E-Learning** | E-learning platform with API services & admin | Next.js · MongoDB · TypeScript |
+| 🌱 **GreenStrun AI** | Migration, dump/restore, transformation, caching | PostgreSQL · MongoDB · Redis |
+| 🌍 **SustainInsight (UAE)** | Data processing, API integrations, background jobs | Node.js · PostgreSQL · BullMQ |
+| 🏗️ **NovelInfra India** | Replication, indexing & caching across data stores | PostgreSQL · Redis |
+| 📄 **Document AI** | Auto-fill invoices, CVs & business data via OCR + LLMs | FastAPI · Claude · Gemini · GPT · RAG |
+| 💼 **WinTech** · 🧑‍💻 **DevFolio** | Client web platforms | React · Node.js · TypeScript |
+
+### 🟠 Reidnax Dev Solutions · 2023–2025
+
+| Project | What it is | Stack |
+|---|---|---|
+| ☀️ **[SunValue](https://sunvalue.com)** (US) | Solar lead-gen, savings workflows, analytics, CRM | Next.js · React · Node.js · TypeScript |
+| 🧾 **adnet admin platform** | Data-heavy admin dashboards & API integrations | React · Kafka · RabbitMQ |
+| 📇 **CRM lead management** | CRM pipelines, SMS/Email workflows, JWT auth | Node.js · JWT · Kafka |
+| 🛡️ **[Elitegarud](https://elitegarud.com)** | Client web application | React · Node.js |
+
+### 🟢 IT-TaaS · 2023
+
+| Project | What it is | Stack |
+|---|---|---|
+| 🧩 **Zoho business workflows** | Creator apps, Deluge, CRM, Analytics, Flow, Books, Desk | Zoho · React · MUI · Node.js |
+
+### 🔵 Ascend Capital · 2021–2023
+
+| Project | What it is | Stack |
+|---|---|---|
+| ⚡ **EvCred Dealer App** | EV financing mobile app — dealers, resale, inventory | React Native · Node.js |
+| 🚗 **[EvCred](https://evcred.com)** | EV financing platform with real-time bidding | React · Node.js · WebSockets |
+| 🤝 **[EvCred Partners](https://partners.evcred.com)** | Partner portal, role-based dashboards | React · RBAC |
+| 🏦 **[LOS · Ascend Capital](https://los.ascendcap.in)** | Loan Origination System, dynamic forms | React · Node.js |
+
+---
+
+## 🎓 Education
+
+**Cochin University of Science and Technology, Kochi, Kerala** — B.Tech in Information Technology · *2016 – 2020*
+
+<div align="center">
+
+<a href="https://prakash.squarehack.in/Jyoti_Prakash_Resume.pdf"><img src="https://img.shields.io/badge/%E2%AC%87_Download-Resume_PDF-ec4899?style=for-the-badge" alt="resume"/></a>
+
+</div>
 
 ---
 
@@ -164,7 +217,7 @@ One bug understood, one concept learned, one honest commit — do that daily and
 
 <div align="center">
 
-<a href="https://prakash7050.github.io/prakash7050/#blog"><img src="https://img.shields.io/badge/Read_the_full_blog-6_articles_%C2%B7_quotes_%C2%B7_speech-ec4899?style=for-the-badge" alt="blog"/></a>
+<a href="https://prakash.squarehack.in/#blog"><img src="https://img.shields.io/badge/Read_the_full_blog-6_articles_%C2%B7_quotes_%C2%B7_speech-ec4899?style=for-the-badge" alt="blog"/></a>
 
 </div>
 
